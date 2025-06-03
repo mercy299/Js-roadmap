@@ -25,3 +25,5 @@ let f = +prompt("First number?", 1);
 let g = +prompt("Second number?", 2);
 
 alert(f + g); // 3
+
+
