@@ -39,3 +39,14 @@ if (question === "ECMAScript") {
 } else {
   alert("You don't know? “ECMAScript”!");
 }
+
+let nuumber = Number(prompt("what is the number?", here));
+if (nuumber > 0) {
+  alert("1");
+} else if (nuumber < 0) {
+  alert("-1");
+} else {
+  alert("0");
+}
+
+let result = a + b < 4 ? "Below" : "Over";
