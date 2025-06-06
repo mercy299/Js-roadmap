@@ -24,3 +24,18 @@ let message2 =
 alert(message2);
 
 // question mark are one liners
+// Sometimes the question mark ? is used as a replacement for if:
+
+if ("0") {
+  alert("Hello");
+}
+
+let question = prompt(
+  "What is the “official” name of JavaScript?",
+  "Answer here"
+);
+if (question === "ECMAScript") {
+  alert("Right!");
+} else {
+  alert("You don't know? “ECMAScript”!");
+}
