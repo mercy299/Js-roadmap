@@ -43,3 +43,39 @@ for (let w = 0; w < 3; w++) {
 for (;;) {
   // repeats without limits
 }
+
+// Normally, a loop exits when its condition becomes falsy.
+
+//
+
+// break label; // jump to the label below (doesn't work)
+
+// label: for (...)
+
+// break directive must be inside a code block. Technically, any labelled code block will do, e.g.:
+
+label: {
+  // ...
+  break label; // works
+  // ...
+}
+
+// while – The condition is checked before each iteration.
+// do..while – The condition is checked after each iteration.
+// for (;;) – The condition is checked before each iteration, additional settings available.
+
+for (d = 2; d <= 10; d++) {
+  if (d % 2 == 0) {
+    alert(d);
+  }
+}
+
+// for (let i = 0; i < 3; i++) {
+//     alert( `number ${i}!` );
+// }
+
+// let i = 0
+// while (i < 3 ){
+//     alert ( `number ${i}!` )
+//     i++
+// }
