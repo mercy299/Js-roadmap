@@ -26,3 +26,6 @@ if (browser == "Edge") {
 } else {
   alert("We hope that this page looks ok!");
 }
+
+// For example: when you enter 2 in the prompt, the return value would be string "2". So if you apply + in front of prompt it will convert the string to number. So string "2" would be converted to number 2.
+// Also we use parseInt instead of '+'
